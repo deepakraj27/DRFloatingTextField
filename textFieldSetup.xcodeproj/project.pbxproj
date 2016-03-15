@@ -15,6 +15,7 @@
 		695E059C1C983B4B00A9CE8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 695E059A1C983B4B00A9CE8E /* LaunchScreen.storyboard */; };
 		695E05A71C983B4B00A9CE8E /* textFieldSetupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 695E05A61C983B4B00A9CE8E /* textFieldSetupTests.m */; };
 		695E05B21C983B4B00A9CE8E /* textFieldSetupUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 695E05B11C983B4B00A9CE8E /* textFieldSetupUITests.m */; };
+		695E05C11C983B9600A9CE8E /* DRFloatTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 695E05C01C983B9600A9CE8E /* DRFloatTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		695E05AD1C983B4B00A9CE8E /* textFieldSetupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = textFieldSetupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		695E05B11C983B4B00A9CE8E /* textFieldSetupUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = textFieldSetupUITests.m; sourceTree = "<group>"; };
 		695E05B31C983B4B00A9CE8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		695E05BF1C983B9600A9CE8E /* DRFloatTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRFloatTextField.h; sourceTree = "<group>"; };
+		695E05C01C983B9600A9CE8E /* DRFloatTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRFloatTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				695E05901C983B4B00A9CE8E /* AppDelegate.m */,
 				695E05921C983B4B00A9CE8E /* ViewController.h */,
 				695E05931C983B4B00A9CE8E /* ViewController.m */,
+				695E05BF1C983B9600A9CE8E /* DRFloatTextField.h */,
+				695E05C01C983B9600A9CE8E /* DRFloatTextField.m */,
 				695E05951C983B4B00A9CE8E /* Main.storyboard */,
 				695E05981C983B4B00A9CE8E /* Assets.xcassets */,
 				695E059A1C983B4B00A9CE8E /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				695E05941C983B4B00A9CE8E /* ViewController.m in Sources */,
 				695E05911C983B4B00A9CE8E /* AppDelegate.m in Sources */,
+				695E05C11C983B9600A9CE8E /* DRFloatTextField.m in Sources */,
 				695E058E1C983B4B00A9CE8E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
